@@ -36,8 +36,6 @@ jobs:
 
       - name: Setup Pages
         uses: actions/configure-pages@v3
-        with:
-          static_site_generator: 'sveltekit'
 
       - name: Build site
         run: bun run build
